@@ -68,7 +68,7 @@
 /*$('#name').focus(function() {
     $('#success').html('');
 });*/
-$(function() {
+/*$(function() {
     $("#contactForm").submit(function(e) {
       e.preventDefault();
       $.ajax({
@@ -101,4 +101,4 @@ $(function() {
         }
       });
     });
-});
+});*/
