@@ -1,4 +1,4 @@
-url: https://spooledrotten.github.io
+url: https://y7kim.github.io
 baseurl: "" 
 
 # Site settings
@@ -49,16 +49,16 @@ social:
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com
+    url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket 
-    url: http://bitbucket.org
+    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 2027 Murray Avenue
-  - line: Pittsburgh, PA 15217
+  - line: 3481 Melrose Place
+  - line: Beverly Hills, CA 90210
 
 # Build settings
 markdown: kramdown
