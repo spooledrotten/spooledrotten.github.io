@@ -3,63 +3,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">STORE HOURS</h2>
-                    <h3 class="section-subheading text-muted"><br>Address: 2027 Murray Ave, Pittsburgh, PA 15217</br>Phone: yyy-yyy-yyyy</h3>
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="row text-center">
-					<div class="col-md-6 col-sm-6">
-                  
-						<h4 class="service-heading"><br>Monday &nbsp; 00:00AM to 00:00PM</br></h4>
-          
-						<h4 class="service-heading"><br>Tuesday &nbsp; 00:00AM to 00:00PM</br></h4>
-                
-						<h4 class="service-heading"><br>Wednesday &nbsp; 00:00AM to 00:00PM</br></h4>
-                
-						<h4 class="service-heading"><br>Thursday &nbsp; 00:00AM to 00:00PM</br></h4>
-        
-						<h4 class="service-heading"><br>Friday &nbsp; 00:00AM to 00:00PM</br></h4>
-    
-						<h4 class="service-heading"><br>Saturday &nbsp; 00:00AM to 00:00PM</br></h4>
-         
-						<h4 class="service-heading"><br>Sunday &nbsp; 00:00AM to 00:00PM</br></h4>
-						
-						<div class="row">
-							<div class="col-lg-8 col-lg-offset-2 text-center">
-								<p class="large text-muted">Hours are subject to change</p>
-							</div>
-						</div>	
-					</div>
-					
-					
-					<div class="col-md-6 col-sm-6">
-								<style>
-									.google-maps {
-									position: relative;
-									padding-bottom: 75%; <!-- This is the aspect ratio-->
-									height: 0;
-									overflow: hidden;
-								}
-									.google-maps iframe {
-									position: absolute;
-									top: 0;
-									left: 0;
-									width: 100% !important;
-									height: 100% !important;
-								}
-								</style>
-					
-						<div class="google-maps">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24294.02793280019!2d-79.94018537005724!3d40.43645705239629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f1feeefeb095%3A0x85d0abb7c6b10f72!2s2027+Murray+Ave%2C+Pittsburgh%2C+PA+15217!5e0!3m2!1sen!2sus!4v1489008473818" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-						</div>
-					</div>
-					
-				</div>			
+                {% for member in site.people %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ member.name }}</h4>
+                        <p class="text-muted">{{ member.position }}</p>
+                        <ul class="list-inline social-buttons">
+                            {% for network in member.social %}
+                            <li>
+                                <a href="{{ network.url }}">
+                                    <i class="fa fa-{{ network.title }}"></i>
+                                </a>
+                            </li>
+                            {% endfor %}
+
+                        </ul>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
-            
-
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
         </div>
-
     </section>
-	
