@@ -1,10 +1,10 @@
-url: https://y7kim.github.io
+url: https://spooledrotten.net
 baseurl: "" 
 
 # Site settings
 title: Spooled Rotten Eyebrows
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: info@spooledrotten.net
+description: "Eyebrows Threading and Waxing Service based in Pittsburgh,PA"
 
 
 # Team names, titles and social links
@@ -49,7 +49,7 @@ social:
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url: http://stackoverflow.com/
   - title: bitbucket 
     url: http://bitbucket.org/jekyll
   - title: github
@@ -57,8 +57,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 2027 Murray Avenue
+  - line: Pittsburgh, PA 15217
 
 # Build settings
 markdown: kramdown
