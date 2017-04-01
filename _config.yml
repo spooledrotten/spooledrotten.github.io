@@ -1,4 +1,5 @@
 url: https://spooledrotten.net
+enforce_ssl: spooledrotten.net
 baseurl: "" 
 
 # Site settings
